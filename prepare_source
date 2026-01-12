@@ -1,6 +1,6 @@
 pkg=libcares2
 version_orig=1.34.6
-version="$version-1"
+version="$version_orig-1"
 # look up in salsa what the correct branch is
 git_src -b "debian/$version" https://salsa.debian.org/debian/c-ares.git
 
